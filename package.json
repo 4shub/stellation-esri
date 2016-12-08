@@ -1,0 +1,22 @@
+{
+  "name": "stellation-esri",
+  "version": "0.0.1",
+  "description": "This code does code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackMerced/stellation-esri.git"
+  },
+  "author": "Shubham Naik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackMerced/stellation-esri/issues"
+  },
+  "homepage": "https://github.com/HackMerced/stellation-esri#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
