@@ -9,4 +9,4 @@ ESRI_USERNAME={esri-username}
 ESRI_PASSWORD={esri-password}
 ```
 
-Then run npm start, your application should be running on `localhost:40000`
+Then run `npm install` then `npm start`, your application should be running on `localhost:40000`

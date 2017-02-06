@@ -30,6 +30,9 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+#
+examples/hackathon-router/client
+
 # Dependency directories
 node_modules
 jspm_packages
@@ -46,9 +49,6 @@ jspm_packages
 
 #dsstore
 .DS_Store
-
-#public should be built via grunt
-public
 
 #any parse files
 assets/parse/*

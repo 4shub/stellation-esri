@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Routeplanner</title>
+  <script src="https://js.arcgis.com/3.18/"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCehLQlL5Vb9K4DeqJyDd_3oyrlz63KDIY&libraries=places"></script>
+
+
+  <script src="jquery.js"></script>
+  <script src="scripts.js"></script>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/3.18/esri/css/esri.css">
+
+</head>
+
+<body>
+  <div class='overlay'>
+    <div class='overlay-query'>
+      <input placeholder="Enter a location here" id="location">
+    </div>
+    <div class='overlay-output'>
+      <div class='oo-top'>Travelling From:</div>
+      <div class='oo-where'>3242 N Lake Road, Merced CA 91532</div>
+      <div class='oo-analysis'>
+        <div class='oo-analysis-part'>
+          <div class='oo-analysis-header'>
+            Total Costs
+          </div>
+          <div class='oo-analysis-data' id='cost'>
+            524
+          </div>
+        </div>
+        <div class='oo-analysis-part'>
+          <div class='oo-analysis-header'>
+            Distance Travelled
+          </div>
+          <div class='oo-analysis-data' id='distance'>
+            $524
+          </div>
+        </div>
+      </div>
+      <div class='oo-path'>
+      </div>
+    </div>
+  </div>
+  <div id='map'>
+
+  </div>
+</body>
+</html>
